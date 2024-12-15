@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-crud-appcrud-app",
-    "slug": "react-native-crud-appcrud-app",
+    "name": "todoApp",
+    "slug": "todoApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.devpresh.todoApp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ac6eda00-f92a-44de-aea6-84dbe7f1f19f"
+      }
+    },
+    "owner": "devpresh"
   }
 }
