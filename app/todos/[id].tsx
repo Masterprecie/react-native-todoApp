@@ -48,7 +48,7 @@ export default function EditScreeen() {
 
       if (storageTodos && storageTodos.length) {
         const otherTodos = storageTodos.filter(
-          (todo) => todo.id.toString() !== savedTodo.id
+          (todo) => todo.id !== savedTodo.id
         );
         const allTodos = [...otherTodos, savedTodo];
         await AsyncStorage.setItem("TodoApp", JSON.stringify(allTodos));

@@ -4,7 +4,7 @@
     "slug": "todoApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/todo-icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,7 +13,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/todo-icon.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.devpresh.todoApp"
@@ -28,7 +28,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/splash-icon.jpg",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
@@ -46,6 +46,15 @@
         "projectId": "ac6eda00-f92a-44de-aea6-84dbe7f1f19f"
       }
     },
-    "owner": "devpresh"
+    "owner": "devpresh",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ac6eda00-f92a-44de-aea6-84dbe7f1f19f",
+      "requestHeaders": {
+        "expo-channel-name": "development"
+      }
+    }
   }
 }
